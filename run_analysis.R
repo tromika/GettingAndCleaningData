@@ -64,5 +64,6 @@ for(i in 4:ncol(all)){
 
 colnames(Tidy)[3:ncol(Tidy)] <- colnames(MeanSD)
 
-write.table(Tidy, file = "Tidy.DataSet")
+#Creates a tidy data set
+write.table(Tidy, file = "TidyDataSet.txt")
 
